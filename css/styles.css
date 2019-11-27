@@ -1,0 +1,132 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 150%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h3{
+  color: #66BFBF;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.intro-head{
+  display: block;
+  margin: auto;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-weight: normal;
+  color: #40514e;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+.intro{
+  width: 40%;
+  margin:auto;
+}
+
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto;
+  line-height: 2;
+}
+
+.web-img{
+  width: 30%;
+  float:left;
+  margin-right: 25px;
+}
+
+.emp{
+  width:30%;
+  float:right;
+  margin-left: 25px;
+}
+
+.contact-message{
+width:40%;
+margin: 50px auto;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+margin-top: 100px;
+}
+
+.bottom-container {
+margin-top:100px;
+background-color: #e0ebe8;
+padding: 50px 0 20px;
+}
+
+a{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 30px;
+text-decoration: none;
+}
+
+.top-cloud {
+  position: absolute;
+  right:200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
